@@ -9,4 +9,5 @@
 * [Competitive Programming](https://github.com/Akshit6828/CompetitiveProgramming)
 ### My Daily Progress Track:
 
-- [ ] Arrays 1
+- [x] Arrays 1
+- [ ] Arrays 2
