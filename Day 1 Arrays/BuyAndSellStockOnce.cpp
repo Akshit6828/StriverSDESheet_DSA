@@ -9,7 +9,7 @@ int maximumProfit(vector<int> &prices){
             if(profit < curProfit){
                 profit = curProfit;
             }
-            buy  = min(buy, currentPrice);
+            buy  = min(buy, currentPrice); // Always buying the minimum stock so that diff of (cur - buy) can be max. ie. max profit.
         }
         return profit;
 }
