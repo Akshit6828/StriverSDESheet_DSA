@@ -6,18 +6,14 @@ public:
             return a[1] > b[1];
         return a[0] < b[0];
     }*/
-    
-    // 1 10
-    // 1 20
+
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
     
         //sort(intervals.begin(), intervals.end(), sortCmp); -> used had it been the times given in opposite order
         sort(intervals.begin(), intervals.end()); // By default the sort will arrange in sorted order of start times. As it sorts based on 1st index.
         vector<vector<int>> uniqueIntervals;
         
-        //uniqueIntervals.push_back(intervals[0]); // The first interval will always be there.
-        
-       vector<int> currentInterval = intervals[0]; // Lets push the first interval in the current Interval.
+        vector<int> currentInterval = intervals[0]; // Lets push the first interval in the current Interval.
         
         for(int i = 0; i< intervals.size(); i++){
             int start_time = intervals[i][0];
