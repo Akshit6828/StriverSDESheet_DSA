@@ -7,7 +7,4 @@
 
 * [DS-Algo](https://github.com/Akshit6828/Data-Structures-Algorithms)
 * [Competitive Programming](https://github.com/Akshit6828/CompetitiveProgramming)
-### My Daily Progress Track:
 
-- [x] Arrays 1
-- [ ] Arrays 2
